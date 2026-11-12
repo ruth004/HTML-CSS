@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e6d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    margin: 60px 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Outfit', sans-serif;
+}
+
+.content img{
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header.content{
+    margin: 30px 10px;
+    font-family: 'Young serif', serif;
+}
+
+.header.content h1{
+    font-family: 'Young serif', serif;
+    font-size: 50px;
+}
+
+.header-desc{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.preparation-time{
+    background-color: #fff7f3;
+    border-radius: 20px;
+    padding: 30px
+}
+
+.preparation-time h3{
+    font-size: 25px;
+    font-family: 'Outfit', serif;
+    color: #801848;
+    font-weight: 600;
+}
+
+.preparation-time li{
+    margin: 10px 0 0 20px;
+}
+
+.card{
+    padding: 30px;
+}
+
+.Ingredient{
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Ingredient h2{
+    color: #801848;
+}
+
+.Instructions{
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.Instructions h2{
+    color: #801848;
+}
+
+ol li::marker{
+    color: #801848;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.Nutrition h2{
+    color: #801848;
+}
+
+.bottom{
+    margin-top: 20px;
+}
+
+.Nutrition hr{
+    margin-top: 20px;
+    
+}
+
+.Nutrition span{
+    margin-left: 20px;
+    color: #801848;
+}
